@@ -9,6 +9,10 @@ All notable changes to the **Prowler UI** are documented in this file.
 - `okta` provider support with OAuth 2.0 private-key JWT credentials form (client ID + PEM private key) [(#11213)](https://github.com/prowler-cloud/prowler/pull/11213)
 - "Resource Metadata / Evidence" tab in the finding detail drawer [(#11187)](https://github.com/prowler-cloud/prowler/pull/11187)
 
+### 🔐 Security
+
+- `pnpm` upgraded to 11 with supply-chain defaults consolidated in `pnpm-workspace.yaml` and `trustPolicyExclude` entries pinned to exact versions [(#11225)](https://github.com/prowler-cloud/prowler/pull/11225)
+
 ---
 
 ## [1.27.0] (Prowler v5.27.0)
